@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 15, 2025 at 06:16 PM
+-- Generation Time: Mar 21, 2025 at 02:50 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -45,13 +45,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fname`, `lname`, `gender`, `account_type`, `email`, `uname`, `pname`, `contact`, `status`) VALUES
-(1, 'james', 'ansali', 'Male', 'Admin', 'james@gmail.com', 'jemss', 'Ansali@123', '09392265335', 'Active'),
-(2, 'Sven', 'Ansali', 'Male', 'Staff', 'Sven@gmail.com', 'sven', 'Sven@123', '09392265335', 'Active'),
-(3, 'mint', 'tol', 'Male', 'Staff', 'gwapo@123', 'mintol', 'mintol@123', '09392265335', 'Pending'),
-(4, 'hanna', 'han', 'Female', 'Staff', 'han@gmail.com', 'hann', 'Hanna@123', '34234324552', 'Pending'),
-(5, 'gwapo', 'test', 'Male', 'Staff', 'gwapo@gmail.com', 'gwapo', 'gwapo123', '09392265335', 'Pending'),
-(6, 'gwapa', 'test', 'Male', 'Staff', 'qwe@gmail.com', 'gwapa', 'gwapa123', '09234425223', 'Pending'),
-(7, 'gatttt', 'sy', 'Female', 'Staff', 'hanss@gmail.com', 'hanss', 'hanss123', '123456789012', 'Active');
+(9, 'Hanna', 'test', 'Female', 'Admin', 'hanna@gmail.com', 'Hanna1', 'hanna@123', '09392265335', 'Active'),
+(10, 'hanna', 'test', 'Male', 'Staff', 'hanna2@gmail.com', 'hanna', 'hanna@321', '092354737452', 'Active');
 
 --
 -- Indexes for dumped tables
@@ -73,7 +68,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
